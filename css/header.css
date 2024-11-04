@@ -1,0 +1,75 @@
+header {
+    background: white; /* Fundo branco */
+    padding: 20px 30px; /* Padding para dar espaço */
+    display: flex; /* Usando flexbox para melhor alinhamento */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaça logo e nav */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidade */
+    border-radius: 10px; /* Arredondamento dos cantos do cabeçalho */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Largura do logo */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 10px; /* Espaço entre o logo e o texto */
+}
+
+nav {
+    display: flex; /* Usando flexbox para a navegação */
+}
+
+.nav-links {
+    display: flex; /* Certificando-se de que os links estão em linha */
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Aumenta a legibilidade */
+    transition: color 0.3s; /* Suaviza a transição de cor */
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Altera a cor para um azul mais escuro ao passar o mouse */
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilo para o botão de logout */
+.login-button {
+    background-color: #007bff; /* Cor de fundo azul para destaque */
+    color: white; /* Cor do texto branca */
+    padding: 10px 15px; /* Padding para aumentar a área clicável */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: bold; /* Aumenta a legibilidade */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.nome {
+    font-size: 24px; /* Tamanho da fonte para o texto do logo */
+    font-weight: bold; /* Negrito para o texto */
+    color: black; /* Cor do texto azul */
+}
+
+/* Adicionando responsividade */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+        text-align: center; /* Centraliza o texto */
+    }
+    
+    .nav-links li {
+        margin: 10px 0; /* Ajusta margem para itens em coluna */
+    }
+}

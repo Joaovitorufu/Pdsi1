@@ -1,0 +1,94 @@
+/* Botão "Adicionar Tarefa" */
+.button-container {
+    margin-bottom: 15px;
+}
+
+.btn-adicionar-tarefa {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-adicionar-tarefa:hover {
+    background-color: #27ae60;
+}
+
+/* Estilos da tabela de atividades */
+.tabela-atividades {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tabela-atividades th, .tabela-atividades td {
+    padding: 15px;
+    text-align: left;
+    font-size: 15px;
+    transition: background-color 0.3s ease; 
+}
+
+.tabela-atividades th {
+    background-color: #f0f3f7;
+    color: #34495e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabela-atividades tr:nth-child(even) {
+    background-color: #fbfdff;
+}
+
+.tabela-atividades tr:hover {
+    background-color: #f1f7fb; 
+}
+
+/* Botão "Editar" na tabela */
+.btn-editar {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo dos campos de entrada durante a edição */
+.input-edit {
+    width: 90%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo do botão "Excluir" */
+.btn-excluir {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #e74c3c; /* Vermelho */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-excluir:hover {
+    background-color: #c0392b; /* Vermelho escuro */
+}

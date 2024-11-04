@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="header-container">
+      <script>
+        fetch("header.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("header-container").innerHTML = data;
+          });
+      </script>
+    </div>
+
+    <div class="container">
+      <div class="image-section">
+        <img src="/images/home.jpg" alt="home" />
+      </div>
+      <div class="content-section">
+        <h1>Bem Vindo de volta, Usuário!</h1>
+        <p class="description">
+          Não perca tempo e continue agora o seu planejamento de atividades!
+          Veja abaixo quais as suas tarefas que estão próximas do prazo final,
+          mais detalhes na aba Atividades.
+        </p>
+        <h2>Atividades</h2>
+        <table class="tabela-atividades">
+          <tr>
+            <th>Atividades</th>
+            <th>Prazo</th>
+          </tr>
+          <tr>
+            <td>Estudar para a prova de ESOF</td>
+            <td>16/04</td>
+          </tr>
+          <tr>
+            <td>Emitir NF de Março</td>
+            <td>16/04</td>
+          </tr>
+          <tr>
+            <td>Pagar contas do mês</td>
+            <td>17/04</td>
+          </tr>
+          <tr>
+            <td>Finalizar API do freela</td>
+            <td>18/04</td>
+          </tr>
+        </table>
+        <a href="/atividades.html" class="btn"
+          >Clique aqui e veja mais detalhes</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

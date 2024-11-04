@@ -1,0 +1,62 @@
+/* Estilização do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #5379fa); /* Gradiente de azul para o fundo */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilo para o cabeçalho da página */
+.header h1 {
+    font-weight: 600;
+    font-size: 60px; /* Aumentar o tamanho do título */
+}
+
+.header h2 {
+    font-weight: 200;
+    font-size: 25px; /* Aumentar o tamanho do subtítulo */
+}
+
+/* Estilo do card principal */
+.card {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
+    width: 100%; /* Largura do card responsivo */
+    max-width: 600px; /* Largura máxima do card */
+    border-radius: 15px; /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco para o card */
+}
+
+/* Estilo dos campos de entrada */
+.form-control {
+    border-radius: 25px; /* Bordas arredondadas nos campos de entrada */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transição suave para a borda */
+    height: 45px; /* Aumentar a altura dos campos de entrada */
+    font-size: 16px; /* Aumentar o tamanho da fonte */
+    padding: 10px 15px; /* Padding interno nos campos de entrada */
+    border: 1px solid #ccc; /* Borda padrão */
+}
+
+/* Foco nos campos de entrada */
+.form-control:focus {
+    border-color: #5379fa; /* Cor da borda em foco */
+    box-shadow: 0 0 5px rgba(83, 121, 250, 0.5); /* Sombra ao focar */
+}
+
+/* Estilo do botão principal */
+.btn-primary {
+    background-color: #5379fa;
+    border-color: #5379fa;
+    border-radius: 25px; /* Bordas arredondadas no botão */
+    margin-top: 20px;
+    height: 55px; /* Aumentar a altura do botão */
+    font-size: 20px; /* Aumentar o tamanho da fonte do botão */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+.btn-primary:hover {
+    background-color: #3a5bbd;
+    border-color: #3a5bbd;
+    transform: translateY(-2px); /* Elevar ao passar o mouse */
+}

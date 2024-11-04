@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calendario {
+    margin-top: 20px;
+    overflow-x: auto; /* Permite rolagem horizontal, se necessário */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+td {
+    height: 40px; /* Altura da célula */
+    vertical-align: top; /* Alinha o texto no topo da célula */
+}
+
+/* Estilo do botão Adicionar Compromisso */
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60; /* Verde escuro */
+}

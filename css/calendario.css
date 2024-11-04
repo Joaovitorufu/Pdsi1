@@ -4,7 +4,7 @@ body {
 
 .calendario {
     margin-top: 20px;
-    overflow-x: auto; /* Permite rolagem horizontal, se necessário */
+    overflow-x: auto; 
 }
 
 table {
@@ -24,8 +24,8 @@ th {
 }
 
 td {
-    height: 40px; /* Altura da célula */
-    vertical-align: top; /* Alinha o texto no topo da célula */
+    height: 40px; 
+    vertical-align: top; 
 }
 
 /* Estilo do botão Adicionar Compromisso */
@@ -33,7 +33,7 @@ button {
     margin-top: 10px;
     padding: 10px 15px;
     font-size: 16px;
-    background-color: #2ecc71; /* Verde */
+    background-color: #2ecc71; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -41,5 +41,5 @@ button {
 }
 
 button:hover {
-    background-color: #27ae60; /* Verde escuro */
+    background-color: #27ae60; 
 }

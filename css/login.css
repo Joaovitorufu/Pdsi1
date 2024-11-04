@@ -47,16 +47,16 @@ body {
 .btn-primary {
     background-color: #5379fa;
     border-color: #5379fa;
-    border-radius: 25px; /* Bordas arredondadas no botão */
+    border-radius: 25px; 
     margin-top: 20px;
-    height: 55px; /* Aumentar a altura do botão */
-    font-size: 20px; /* Aumentar o tamanho da fonte do botão */
-    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+    height: 55px; 
+    font-size: 20px;
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
 /* Estilo ao passar o mouse sobre o botão */
 .btn-primary:hover {
     background-color: #3a5bbd;
     border-color: #3a5bbd;
-    transform: translateY(-2px); /* Elevar ao passar o mouse */
+    transform: translateY(-2px); 
 }

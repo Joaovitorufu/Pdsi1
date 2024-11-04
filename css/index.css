@@ -1,8 +1,8 @@
 /* Configuração geral do container */
 .container {
     display: flex;
-    min-height: 600px; /* Altura mínima do container para alinhar com a tabela */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 600px; 
+    align-items: center; 
 }
 
 /* Estilização para a seção da imagem e o texto abaixo */
@@ -43,7 +43,7 @@
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     margin-top: 20px;
-    min-height: 400px; /* Mantém a altura mínima da tabela */
+    min-height: 400px; 
 }
 
 .tabela-atividades th, .tabela-atividades td {
